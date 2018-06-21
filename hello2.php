@@ -13,7 +13,7 @@ class Api
 
     public $api_key = '535958c316bf4841d2663223aa0f0654'; // Your API key
 
-    public function order($data) { // add order
+public function order($data) { // add order
         $post = array_merge(array('key' => $this->api_key, 'action' => 'add'), $data);
         $returnValue = json_decode($this->connect($post));
         echo "<pre>";
