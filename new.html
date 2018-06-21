@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="viewport" content=
+    "width=device-width, initial-scale=1" />
+    <style type="text/css">
+/*<![CDATA[*/
+    .btn-group .button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 180px;
+    display: block;
+    }
+
+    .btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+    }
+
+    .btn-group .button:hover {
+    background-color: #3e8e41;
+    }
+    /*]]>*/
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <form action="hello.php" style="max-width:380px" method="post">
+      <div class="btn-group">
+        <button class="button" name="elsa">ElsaLikes</button><br />
+        <button class="button" name="TheFattouch">TheFattouch</button><br />
+        <!--<button class="button" name="candid">Candid.Likes</button></br>-->
+         <button class="button" name="Rita1">Rita #1</button><br />
+        <button class="button" name="Rita2">Rita #2</button><br />
+        <button class="button" name="Rita3">RitaViews</button><br />
+      </div>
+    </form>
+    <p>
+      <br />
+    </p>
+    <form action="order.html">
+      <button class="button">Custom Likes</button><br />
+      <br />
+    </form>
+  </body>
+</html>
